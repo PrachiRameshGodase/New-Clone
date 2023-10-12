@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Main_contain">
+        <h2>PLP</h2>
+        <div class="content">
+            <input type="text" placeholder="Search products..." id="searchInput">
+            <button onclick="filterProducts()">Search</button>
+            <button onclick="setView('list')">List View</button>
+            <button onclick="setView('grid')">Grid View</button>
+        </div>
+        <div id="productContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
